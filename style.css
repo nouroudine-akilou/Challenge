@@ -111,24 +111,28 @@ textarea{
     text-align: center;
     color: white;
 }
-@media(max-width:400px){
+@media(min-width:412px){
     body{
         padding:30px;
     }
     h1{
-        font-size: 24px;
-        color: #06e441;
+        font-size: 34px;
+        color: #1a5de4;
     }
     h2{
-        font-size: 20px;
-        color: #06e441;
+        font-size: 30px;
+        color: #1a5de4;
+    }
+    p{
+        font-size: 25px;
+        color: #333;
     }
     img{
-        width: 300px;
+        width: 500px;
         height: 300px;
         border-radius: 70%;
         text-align: center;
-        /* flex-direction: row; */
+        flex-direction: row;
         justify-content: center;
         margin: auto;
        
@@ -148,10 +152,10 @@ textarea{
 
     }
     input:hover{
-        background: #11e984;
+        background: #1a5de4;
     }
     p:hover{
-        color: #06e441;
+        color: #1a5de4;
     }
     .card{
         flex-direction: row;
@@ -159,4 +163,3 @@ textarea{
     }
 
 }
-
