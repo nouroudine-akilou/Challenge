@@ -71,7 +71,10 @@ table tr:nth-child(even){
 table th{
     background-color: #2563eb;
     color: white;
+    font-size: 30px;
 }
+td{
+    font-size: 25px;}
 label{
     display:block;
     margin-bottom: 8px;
@@ -124,7 +127,7 @@ textarea{
         color: #1a5de4;
     }
     p{
-        font-size: 35px;
+        font-size: 25px;
         color: #333;
     }
     img{
@@ -163,4 +166,3 @@ textarea{
     }
 
 }
-
